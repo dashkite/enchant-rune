@@ -4,8 +4,6 @@ import handlers from "./handlers"
 # mock fetch that just runs locally
 globalThis.Sky =
   fetch: ( request ) ->
-    # TODO possibly switch back to target using helper 
-    #      to derive target from resource?
     { resource } = request
     if resource.name == "description"
         content: api
