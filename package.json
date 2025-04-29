@@ -35,7 +35,8 @@
     "@dashkite/genie-json-schema": "link:../genie-json-schema",
     "@dashkite/genie-yaml": "link:../genie-yaml",
     "@dashkite/messages": "link:../messages",
-    "@dashkite/polaris": "link:../polaris"
+    "@dashkite/polaris": "link:../polaris",
+    "@dashkite/vista": "link:../vista"
   },
   "dependencies": {
     "@dashkite/bake": "^0.0.6",

@@ -60,6 +60,9 @@ importers:
       '@dashkite/polaris':
         specifier: link:../polaris
         version: link:../polaris
+      '@dashkite/vista':
+        specifier: link:../vista
+        version: link:../vista
 
 packages:
 
