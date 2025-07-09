@@ -51,6 +51,9 @@ importers:
       '@dashkite/genie-json-schema':
         specifier: link:../genie-json-schema
         version: link:../genie-json-schema
+      '@dashkite/genie-release':
+        specifier: link:../genie-release
+        version: link:../genie-release
       '@dashkite/genie-yaml':
         specifier: link:../genie-yaml
         version: link:../genie-yaml
