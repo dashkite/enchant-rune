@@ -58,8 +58,8 @@ importers:
         specifier: 0.1.0
         version: 0.1.0
       '@dashkite/messages':
-        specifier: link:../messages
-        version: link:../messages
+        specifier: 0.3.0
+        version: 0.3.0
       '@dashkite/polaris':
         specifier: 0.3.0
         version: 0.3.0
@@ -882,6 +882,12 @@ packages:
   '@dashkite/dolores@0.1.0':
     resolution: {integrity: sha512-EyL1wH7HdVRCAr42nkkYqsYwW/zzUsA9Dq2/jJ3mnbuJcIZLqj6kiQNgcXdhs0By4egGnOvyndKGpVOTl8QBYg==}
 
+  '@dashkite/format-text@0.3.0':
+    resolution: {integrity: sha512-Rf85hV8YOJHbqiWTeIBa74Nz4JqXwdAlwYgit85ViTbtKVLjK1mCX2Utqg5mI2cmZD7SrOqkWBTnk/bGFU15IA==}
+
+  '@dashkite/generic@0.3.0':
+    resolution: {integrity: sha512-A4eHFbIZwrrZmY0//KMiYKHaBUPxUA0PA2QhNZCWC+i11WtPSk6IDuPRkafbFYkmvpj80Gmr4Qznn3ASJIQP1A==}
+
   '@dashkite/genie-clean@0.2.0':
     resolution: {integrity: sha512-1L6Rzoiu7yRixhI6uPTCNSo3wHx/y2RgVlnUDAdO3I4TBCeU1h0Kiytr32ZCK7i3BCatObAdWJt0+9Nc3ZSUIw==}
 
@@ -946,6 +952,9 @@ packages:
 
   '@dashkite/media-type@0.2.0':
     resolution: {integrity: sha512-XEvcDeqFeiX6zKhs8jIc4+97xkOdOfssN+kYn5nnoRoXP4WEI+Em3frdkGtl71oltgh27Y377bImWw5ExK/juw==}
+
+  '@dashkite/messages@0.3.0':
+    resolution: {integrity: sha512-XJdHj/KvRTQ1moKl3vXdCu63fUercfhU/bNUhY4SPzqGAR+gzpLfQzfmKd6hUxFm9zC48HgE1L9QgIBCtK18kw==}
 
   '@dashkite/parse@0.4.3':
     resolution: {integrity: sha512-bE0kBjaGYjUnCzWJelQnx8vsfJ9YP07aRTVFZoY7TZWvMmnihoCSugL4IVWAOA2O0EAZXjT8FcjA4bNJ/BQwwg==}
@@ -3963,6 +3972,14 @@ snapshots:
       - aws-crt
       - encoding
 
+  '@dashkite/format-text@0.3.0':
+    dependencies:
+      '@dashkite/joy': 0.5.0
+
+  '@dashkite/generic@0.3.0':
+    dependencies:
+      '@dashkite/joy': 0.5.0
+
   '@dashkite/genie-clean@0.2.0':
     dependencies:
       '@dashkite/masonry': 0.13.0
@@ -4094,6 +4111,12 @@ snapshots:
     dependencies:
       '@dashkite/joy': 0.3.16
       '@dashkite/parse': 0.4.3
+
+  '@dashkite/messages@0.3.0':
+    dependencies:
+      '@dashkite/format-text': 0.3.0
+      '@dashkite/generic': 0.3.0
+      '@dashkite/joy': 0.5.0
 
   '@dashkite/parse@0.4.3':
     dependencies:
