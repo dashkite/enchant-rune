@@ -15,8 +15,8 @@ importers:
         specifier: link:../enchant
         version: link:../enchant
       '@dashkite/http-headers':
-        specifier: link:../http-headers
-        version: link:../http-headers
+        specifier: 0.6.0
+        version: 0.6.0
       '@dashkite/joy':
         specifier: ^0.3.16
         version: 0.3.16
@@ -902,8 +902,14 @@ packages:
     engines: {node: '>=20.0.0'}
     hasBin: true
 
+  '@dashkite/http-headers@0.6.0':
+    resolution: {integrity: sha512-zLIMwbuLAA0osdzsUDKv9uXy/v1+tm30mz4gfqSIdExVu4uOdyYYNSuSMDqfTloPqtQu/ex1L194LPoUrZ7bAw==}
+
   '@dashkite/joy@0.3.16':
     resolution: {integrity: sha512-dsU0us4j1Pb+zceoBvLbnZ2PbmULkJUtM2vtWLxKmoc1DE4w9SVTiPTe6JWvF0A0vk90ldv+Lc9qEA5x3O+DtQ==}
+
+  '@dashkite/joy@0.5.0':
+    resolution: {integrity: sha512-kaDNKKS6v5r3vukOkh54aarrhiTHwbcKZZW8eDav5FhT6u8RRrmSaFeAbwLzGntdPScaEhqg/PLrvtPHOy9OlQ==}
 
   '@dashkite/kaiko@0.3.3':
     resolution: {integrity: sha512-XnAvVr9y2MsDqMLr4A24vkLF7Iuq3E8RjHEEpqhe29P5NevVX9jXKcXUStNMp9MSJbjHd2pqUNiM5Vvdja9ggg==}
@@ -938,6 +944,9 @@ packages:
   '@dashkite/media-type@0.1.1':
     resolution: {integrity: sha512-IaB3fvmxFhN5JNf+m//2sEXgh3tOpLOKkwD7Fam8BS62r9doED8QAb80OfSj71r6b4+xmcNHlFkBzqNNKjtIdw==}
 
+  '@dashkite/media-type@0.2.0':
+    resolution: {integrity: sha512-XEvcDeqFeiX6zKhs8jIc4+97xkOdOfssN+kYn5nnoRoXP4WEI+Em3frdkGtl71oltgh27Y377bImWw5ExK/juw==}
+
   '@dashkite/parse@0.4.3':
     resolution: {integrity: sha512-bE0kBjaGYjUnCzWJelQnx8vsfJ9YP07aRTVFZoY7TZWvMmnihoCSugL4IVWAOA2O0EAZXjT8FcjA4bNJ/BQwwg==}
 
@@ -949,6 +958,9 @@ packages:
 
   '@dashkite/tweetnacl@1.0.3':
     resolution: {integrity: sha512-qBw5yhOw8mCe7fV6sw/5DIfQLW3txB+MlSDngf7h2WwnRz5CWzmhVBnKuYHcMXX9u50T4iW0AR/FwEl6Tm/TMQ==}
+
+  '@dashkite/url-codex@0.2.0':
+    resolution: {integrity: sha512-12m6YzdBEP3Rb0QGTMv1cTw4KLO37VW3HDHuUQV7QJQOGRzvS5+iQqXLkhfDJBqRC4oc1t9+iQ/6PEUtYXXArw==}
 
   '@dashkite/utf8@1.0.1':
     resolution: {integrity: sha512-58HZrEijYUG9p8SAf4o/NR7U3qUq//9XbkQ7T5cHIY/RFjCVg9vpWZlHXkcbZp7v3CAMJgEGVXt/5/upvOBQAw==}
@@ -4006,7 +4018,17 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
+  '@dashkite/http-headers@0.6.0':
+    dependencies:
+      '@dashkite/joy': 0.3.16
+      '@dashkite/media-type': 0.2.0
+      '@dashkite/parse': 0.4.3
+      '@dashkite/scan': 0.2.0
+      '@dashkite/url-codex': 0.2.0
+
   '@dashkite/joy@0.3.16': {}
+
+  '@dashkite/joy@0.5.0': {}
 
   '@dashkite/kaiko@0.3.3': {}
 
@@ -4068,6 +4090,11 @@ snapshots:
       '@dashkite/joy': 0.3.16
       '@dashkite/parse': 0.4.3
 
+  '@dashkite/media-type@0.2.0':
+    dependencies:
+      '@dashkite/joy': 0.3.16
+      '@dashkite/parse': 0.4.3
+
   '@dashkite/parse@0.4.3':
     dependencies:
       '@dashkite/joy': 0.3.16
@@ -4083,6 +4110,11 @@ snapshots:
       '@dashkite/lru-cache': 0.1.0
 
   '@dashkite/tweetnacl@1.0.3': {}
+
+  '@dashkite/url-codex@0.2.0':
+    dependencies:
+      '@dashkite/joy': 0.5.0
+      '@dashkite/parse': 0.4.3
 
   '@dashkite/utf8@1.0.1': {}
 

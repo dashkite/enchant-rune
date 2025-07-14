@@ -42,7 +42,7 @@
   "dependencies": {
     "@dashkite/bake": "^0.0.6",
     "@dashkite/enchant": "link:../enchant",
-    "@dashkite/http-headers": "link:../http-headers",
+    "@dashkite/http-headers": "0.6.0",
     "@dashkite/joy": "^0.3.16",
     "@dashkite/runes": "link:../runes",
     "panda-confidential": "^3.1.2"
