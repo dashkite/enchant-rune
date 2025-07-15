@@ -21,8 +21,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       '@dashkite/runes':
-        specifier: link:../runes
-        version: link:../runes
+        specifier: 0.2.0
+        version: 0.2.0
       panda-confidential:
         specifier: ^3.1.2
         version: 3.1.2
@@ -1003,6 +1003,9 @@ packages:
 
   '@dashkite/polaris@0.7.0':
     resolution: {integrity: sha512-rlMU5liZIXnVdzYob5Ji6k+Mh2+er5Is1iI3R+reljpKOJd32Gt2j/Idgepf9WKSI22T8t3NxIEhx2YBDOYJ3A==}
+
+  '@dashkite/runes@0.2.0':
+    resolution: {integrity: sha512-05FNpl8xhTu3Qr90cutbmw0HjsD3jDWqL4LFYU4YwmNOPs+qb95yiGARCYfz0VcYBomedy1ef2bMbYqji6X2oA==}
 
   '@dashkite/scan@0.2.0':
     resolution: {integrity: sha512-Ihzyw90G+RAB7ietzrEZHDivqwsr4HdCm9LSUGKLFERN26RNvXmLp8CEE1OCkucH6ipfmDSF/ga8OVxxp0gGAw==}
@@ -4297,6 +4300,16 @@ snapshots:
       '@dashkite/joy': 0.7.0
       '@dashkite/scan': 0.4.0
       jsonpath-plus: 7.2.0
+
+  '@dashkite/runes@0.2.0':
+    dependencies:
+      '@dashkite/enchant': 0.2.0
+      '@dashkite/joy': 0.7.0
+      '@dashkite/kaiko': 0.3.3
+      '@js-temporal/polyfill': 0.4.4
+      panda-confidential: 3.1.2
+    transitivePeerDependencies:
+      - encoding
 
   '@dashkite/scan@0.2.0':
     dependencies:

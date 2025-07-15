@@ -44,7 +44,7 @@
     "@dashkite/enchant": "0.2.0",
     "@dashkite/http-headers": "0.8.0",
     "@dashkite/joy": "^0.7.0",
-    "@dashkite/runes": "link:../runes",
+    "@dashkite/runes": "0.2.0",
     "panda-confidential": "^3.1.2"
   },
   "files": [
