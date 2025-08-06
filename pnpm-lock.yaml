@@ -40,8 +40,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(@aws-sdk/credential-provider-node@3.529.0)
       '@dashkite/genie':
-        specifier: ^0.20.9
-        version: 0.20.9
+        specifier: ^0.20.10
+        version: 0.20.10
       '@dashkite/genie-clean':
         specifier: ^0.9.0
         version: 0.9.0
@@ -58,11 +58,11 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       '@dashkite/messages':
-        specifier: ^0.9.18
-        version: 0.9.18
+        specifier: ^0.9.19
+        version: 0.9.19
       '@dashkite/polaris':
-        specifier: ^0.10.18
-        version: 0.10.18
+        specifier: ^0.10.19
+        version: 0.10.19
 
 packages:
 
@@ -909,8 +909,8 @@ packages:
   '@dashkite/genie-yaml@0.7.0':
     resolution: {integrity: sha512-XpliyPq/hF9BXMxBbD2wKCsNEI4ViLIzfRam2dS7lsoX4LR2fM5xPrZ/0RFdh3Tar1pugnEdbSZTDGfn3LPDwA==}
 
-  '@dashkite/genie@0.20.9':
-    resolution: {integrity: sha512-5EVuUP0q/xS35R/tV6EmFLwVct2ao3JSR11Ff3r5nvWUK+kP4WqvX+sLk6dgHEkc1cOZwMX03FwDN93UUqtMKQ==}
+  '@dashkite/genie@0.20.10':
+    resolution: {integrity: sha512-Ir9aw5anu9t2F0tlIfmauT1ofKzU2kGpxVfc4bnW9t+Uz7SrIrC4sauX+r/2PzrkXk/gRAhuKT7VKTz+SlYcqw==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -983,8 +983,8 @@ packages:
   '@dashkite/messages@0.6.0':
     resolution: {integrity: sha512-S4X+fYcQpqQzBj86E9hEMBuTfas4J/7qvdd0Sa9WyGBGHqNBCznacnXrET286GI7IUZAC0iN2sR2CgV22/6eIQ==}
 
-  '@dashkite/messages@0.9.18':
-    resolution: {integrity: sha512-5uKcTCv5m5qvY3KP0gXVlr2ruQfFk1oWnAk9YNYXgQp0Tp0XAVe2VOy57rGjgJhbyYLg4iGP+8ynKTW8taFlvg==}
+  '@dashkite/messages@0.9.19':
+    resolution: {integrity: sha512-LSmsOwWP3qouR+hKgqfi4eXKs1YnQejw2JXLnn4yPJ/kCaWxLX/J/r/DYjIRjDE0neztgqT8jdU0Tia4CaPw9A==}
 
   '@dashkite/parse@0.4.3':
     resolution: {integrity: sha512-bE0kBjaGYjUnCzWJelQnx8vsfJ9YP07aRTVFZoY7TZWvMmnihoCSugL4IVWAOA2O0EAZXjT8FcjA4bNJ/BQwwg==}
@@ -992,8 +992,8 @@ packages:
   '@dashkite/parse@0.7.0':
     resolution: {integrity: sha512-lhU3LuRKCUVOgswBHjTvLnGIzhOk+QIxUQVSRNv+U1iPSzjpypFd/EBL5UQQ4qqU2w9u8M63FIBFHcxRiB/oDw==}
 
-  '@dashkite/polaris@0.10.18':
-    resolution: {integrity: sha512-tCdcw4pQUdd+JgOEVXS/5ZEJfSu2PV0ExqSKKGLNdRNvVSie5kAeuoiOQF6j95TGmflRB2i3HeI7QtRzpoYlcw==}
+  '@dashkite/polaris@0.10.19':
+    resolution: {integrity: sha512-7hJ8mHBZfn55ULLxAuZQ+00qnJVj29gtcbfQYXAKudb+LPD7vGmqgAbM4nfA5pW7LUomVuySMWfyQTUiPjix7w==}
 
   '@dashkite/polaris@0.7.0':
     resolution: {integrity: sha512-rlMU5liZIXnVdzYob5Ji6k+Mh2+er5Is1iI3R+reljpKOJd32Gt2j/Idgepf9WKSI22T8t3NxIEhx2YBDOYJ3A==}
@@ -4145,7 +4145,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@dashkite/genie@0.20.9':
+  '@dashkite/genie@0.20.10':
     dependencies:
       '@dashkite/joy': 0.7.0
       '@dashkite/kaiko': 0.3.3
@@ -4277,7 +4277,7 @@ snapshots:
       '@dashkite/generic': 0.5.0
       '@dashkite/joy': 0.7.0
 
-  '@dashkite/messages@0.9.18':
+  '@dashkite/messages@0.9.19':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0
@@ -4291,7 +4291,7 @@ snapshots:
     dependencies:
       '@dashkite/joy': 0.3.16
 
-  '@dashkite/polaris@0.10.18':
+  '@dashkite/polaris@0.10.19':
     dependencies:
       '@dashkite/joy': 0.7.0
       '@dashkite/scan': 0.4.0
