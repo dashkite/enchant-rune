@@ -58,11 +58,11 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       '@dashkite/messages':
-        specifier: ^0.9.24
-        version: 0.9.24
+        specifier: ^0.9.25
+        version: 0.9.25
       '@dashkite/polaris':
-        specifier: ^0.10.23
-        version: 0.10.23
+        specifier: ^0.10.24
+        version: 0.10.24
 
 packages:
 
@@ -983,8 +983,8 @@ packages:
   '@dashkite/messages@0.6.0':
     resolution: {integrity: sha512-S4X+fYcQpqQzBj86E9hEMBuTfas4J/7qvdd0Sa9WyGBGHqNBCznacnXrET286GI7IUZAC0iN2sR2CgV22/6eIQ==}
 
-  '@dashkite/messages@0.9.24':
-    resolution: {integrity: sha512-ChNk0nxDowtybizz9pxjZ9ENxBt299zLPllrC4bCsbghXPUyU3nkGi/khhMVwVbIQ/3XsoVFP94r/pkP3uf0PQ==}
+  '@dashkite/messages@0.9.25':
+    resolution: {integrity: sha512-CLL2kjLUNas8Lh3xirUhVJsNvylsMqjFHYu99lVEVW3AkIjklmpfR3zMSQSRkzBlCIsuYxuRIb4R9YBGrTNHvw==}
 
   '@dashkite/parse@0.4.3':
     resolution: {integrity: sha512-bE0kBjaGYjUnCzWJelQnx8vsfJ9YP07aRTVFZoY7TZWvMmnihoCSugL4IVWAOA2O0EAZXjT8FcjA4bNJ/BQwwg==}
@@ -992,8 +992,8 @@ packages:
   '@dashkite/parse@0.7.0':
     resolution: {integrity: sha512-lhU3LuRKCUVOgswBHjTvLnGIzhOk+QIxUQVSRNv+U1iPSzjpypFd/EBL5UQQ4qqU2w9u8M63FIBFHcxRiB/oDw==}
 
-  '@dashkite/polaris@0.10.23':
-    resolution: {integrity: sha512-7SnTjGv/WLSPI6dsFhzL47ubmeDjEJQe0s14UxSWmcfhRTTgDUAGAueg7D6DztRFLxDwS7AbbKDhvLVqs96dgA==}
+  '@dashkite/polaris@0.10.24':
+    resolution: {integrity: sha512-VGaCXF2ZPkZABISohFxwXdnpdQsYJaE7wjCxndVpKq9MyoxFUSiHGZG1s45RvP6k9Dp1fDzlGa2wIZBeoKdDNA==}
 
   '@dashkite/polaris@0.7.0':
     resolution: {integrity: sha512-rlMU5liZIXnVdzYob5Ji6k+Mh2+er5Is1iI3R+reljpKOJd32Gt2j/Idgepf9WKSI22T8t3NxIEhx2YBDOYJ3A==}
@@ -4277,7 +4277,7 @@ snapshots:
       '@dashkite/generic': 0.5.0
       '@dashkite/joy': 0.7.0
 
-  '@dashkite/messages@0.9.24':
+  '@dashkite/messages@0.9.25':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0
@@ -4291,7 +4291,7 @@ snapshots:
     dependencies:
       '@dashkite/joy': 0.3.16
 
-  '@dashkite/polaris@0.10.23':
+  '@dashkite/polaris@0.10.24':
     dependencies:
       '@dashkite/joy': 0.7.0
       '@dashkite/scan': 0.4.0
