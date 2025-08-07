@@ -58,8 +58,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0
       '@dashkite/messages':
-        specifier: ^0.9.20
-        version: 0.9.20
+        specifier: ^0.9.21
+        version: 0.9.21
       '@dashkite/polaris':
         specifier: ^0.10.20
         version: 0.10.20
@@ -983,8 +983,8 @@ packages:
   '@dashkite/messages@0.6.0':
     resolution: {integrity: sha512-S4X+fYcQpqQzBj86E9hEMBuTfas4J/7qvdd0Sa9WyGBGHqNBCznacnXrET286GI7IUZAC0iN2sR2CgV22/6eIQ==}
 
-  '@dashkite/messages@0.9.20':
-    resolution: {integrity: sha512-sBFh3bdfV6qOtOlsEgL32g01siocUydwnDgvbI24Jtm9uxIzWcPjXAUnBom6YrXASFLx1f5BeCx6Vx8iyN2uGw==}
+  '@dashkite/messages@0.9.21':
+    resolution: {integrity: sha512-oltWhWg67tyFlxeolOo8RqrWB2JF4s1EdTUiWsBOKPaOC7pyWrJwMExOvuMT3rNBithsU76X2h8Dzn78Hno8IQ==}
 
   '@dashkite/parse@0.4.3':
     resolution: {integrity: sha512-bE0kBjaGYjUnCzWJelQnx8vsfJ9YP07aRTVFZoY7TZWvMmnihoCSugL4IVWAOA2O0EAZXjT8FcjA4bNJ/BQwwg==}
@@ -4277,7 +4277,7 @@ snapshots:
       '@dashkite/generic': 0.5.0
       '@dashkite/joy': 0.7.0
 
-  '@dashkite/messages@0.9.20':
+  '@dashkite/messages@0.9.21':
     dependencies:
       '@dashkite/format-text': 0.5.0
       '@dashkite/generic': 0.5.0

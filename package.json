@@ -36,7 +36,7 @@
     "@dashkite/genie-json-schema": "^0.7.0",
     "@dashkite/genie-release": "^0.4.3",
     "@dashkite/genie-yaml": "^0.7.0",
-    "@dashkite/messages": "^0.9.20",
+    "@dashkite/messages": "^0.9.21",
     "@dashkite/polaris": "^0.10.20"
   },
   "dependencies": {
