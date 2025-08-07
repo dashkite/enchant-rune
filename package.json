@@ -36,8 +36,8 @@
     "@dashkite/genie-json-schema": "^0.7.0",
     "@dashkite/genie-release": "^0.4.3",
     "@dashkite/genie-yaml": "^0.7.0",
-    "@dashkite/messages": "^0.9.23",
-    "@dashkite/polaris": "^0.10.22"
+    "@dashkite/messages": "^0.9.24",
+    "@dashkite/polaris": "^0.10.23"
   },
   "dependencies": {
     "@dashkite/bake": "^0.0.6",
