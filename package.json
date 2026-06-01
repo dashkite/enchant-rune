@@ -34,10 +34,10 @@
     "@dashkite/genie-clean": "^0.9.0",
     "@dashkite/genie-coffee": "^0.9.0",
     "@dashkite/genie-json-schema": "^0.7.0",
-    "@dashkite/genie-release": "^0.5.2",
+    "@dashkite/genie-release": "^0.5.4",
     "@dashkite/genie-yaml": "^0.7.0",
-    "@dashkite/messages": "^0.9.41",
-    "@dashkite/polaris": "^0.10.38"
+    "@dashkite/messages": "^0.9.43",
+    "@dashkite/polaris": "^0.10.39"
   },
   "dependencies": {
     "@dashkite/bake": "^0.0.6",
