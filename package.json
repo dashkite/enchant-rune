@@ -41,10 +41,10 @@
   },
   "dependencies": {
     "@dashkite/bake": "^0.0.6",
-    "@dashkite/enchant": "^0.2.0",
-    "@dashkite/http-headers": "^0.8.0",
+    "@dashkite/enchant": "link:../enchant",
+    "@dashkite/http-headers": "link:../http-headers",
     "@dashkite/joy": "^0.7.0",
-    "@dashkite/runes": "^0.2.0",
+    "@dashkite/runes": "link:../runes",
     "panda-confidential": "^3.1.2"
   },
   "files": [

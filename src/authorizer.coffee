@@ -6,7 +6,7 @@ import { Messages } from "@dashkite/messages"
 import messages from "./messages"
 
 message = do ( _messages = null ) ->
-  _messages = Messages.create()
+  _messages = Messages.make {}
   _messages.add messages
   ( code, context ) -> _messages.message code, context
 
